@@ -80,7 +80,7 @@ Y = model.predict(X, batch_size);
 % label of classification output
 label = py.tensorflow.keras.applications.efficientnet_v2.decode_predictions(Y); 
 ```
-Note that many [pretrained models](https://www.mathworks.com/help/deeplearning/ug/pretrained-convolutional-neural-networks.html) are available for use directY in MATLAB without the need for co-execution. 
+Note that many [pretrained models](https://www.mathworks.com/help/deeplearning/ug/pretrained-convolutional-neural-networks.html) are available for use directly in MATLAB without the need for co-execution. 
 
 * **Gathering and displaying the classification result in MATLAB:**
 ```matlab:Code(Display)
@@ -92,7 +92,7 @@ title(labelStr,Interpreter="none");
 
 
 ## Comparison of Models accessible in MATLAB <a name="comparison-table"/>
-| Capability  | Models created using the [Deep Learning Toolbox](https://www.mathworks.com/products/deep-learning.html) | Models [Converted from other FrameWorks](https://www.mathworks.com/help/deeplearning/deep-learning-import-and-export.html)| Co-execution |
+| Capability  | Models created using the [Deep Learning Toolbox](https://www.mathworks.com/products/deep-learning.html) | Models [Converted from other Frameworks](https://www.mathworks.com/help/deeplearning/deep-learning-import-and-export.html)| Co-execution |
 | ------------- | ------------- | ------------- | ------------- |
 | Integrates with pre and post processing with MATLAB | ![](https://via.placeholder.com/15/c5f015/000000?text=+) | ![](https://via.placeholder.com/15/c5f015/000000?text=+)  | ![](https://via.placeholder.com/15/c5f015/000000?text=+)    |
 | Requires installation of MATLAB products only | ![](https://via.placeholder.com/15/c5f015/000000?text=+)  | ![](https://via.placeholder.com/15/c5f015/000000?text=+) | ![](https://via.placeholder.com/15/f03c15/000000?text=+)  |
