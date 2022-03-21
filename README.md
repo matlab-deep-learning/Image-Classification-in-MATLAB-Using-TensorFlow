@@ -47,7 +47,7 @@ There are many benefits to co-execution. These include:
 
 ## How can co-execution be performed?
 
-The [example](https://insidelabs-git.mathworks.com/dwilling/matlab-calling-tensorflow-image-classification/-/blob/master/MATLABCallingTensorFlowforImageClassification.m) shows how MATLAB can co-execute with TensorFlow to classify images using a model from [tf.Keras.applications](https://www.tensorflow.org/api_docs/python/tf/keras/applications).  The following steps outline what is covered in the example:
+The [example](https://github.com/matlab-deep-learning/Image-Classification-in-MATLAB-Using-TensorFlow/blob/main/ImageClassificationinMATLABusingTensorFlow.m) shows how MATLAB can co-execute with TensorFlow to classify images using a model from [tf.Keras.applications](https://www.tensorflow.org/api_docs/python/tf/keras/applications).  The following steps outline what is covered in the example:
 
 * **Configuring python setup:**
 
