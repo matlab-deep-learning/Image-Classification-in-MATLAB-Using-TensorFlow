@@ -23,7 +23,7 @@ Co-execution between MATLAB and TensorFlow is when both frameworks are used toge
 The example requires the following software:
 
 * [MATLAB R2021b or later](https://www.mathworks.com/products/matlab.html)
-* [Tensorflow 2-2.6](https://www.tensorflow.org/install)
+* [Tensorflow 2.8](https://www.tensorflow.org/install)
 * [Python 3.8+](https://www.python.org/downloads/)
 
 For more information about installing Python, see [Install Supported Python Implementation](https://www.mathworks.com/help/matlab/matlab_external/install-supported-python-implementation.html). 
