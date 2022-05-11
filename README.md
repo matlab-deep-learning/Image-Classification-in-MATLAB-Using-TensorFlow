@@ -51,7 +51,7 @@ The [example](https://github.com/matlab-deep-learning/Image-Classification-in-MA
 
 * **Configuring python setup:**
 
-The script [checkPythonSetup](https://insidelabs-git.mathworks.com/dwilling/matlab-calling-tensorflow-image-classification/-/blob/master/checkPythonSetup.m) contains commands to help set up the python environment. You don't need to run these commands, unless the default Python configuration causes errors.
+The script [checkPythonSetup](https://github.com/matlab-deep-learning/Image-Classification-in-MATLAB-Using-TensorFlow/blob/main/checkPythonSetup.m) contains commands to help set up the python environment. You don't need to run these commands, unless the default Python configuration causes errors.
 
 For more information on setting up or troubleshooting the Python Environment in MATLAB see [Calling Python from MATLAB](https://www.mathworks.com/help/matlab/call-python-libraries.html)
 
