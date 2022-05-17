@@ -94,23 +94,23 @@ title(labelStr,Interpreter="none");
 ## Comparison of Models accessible in MATLAB <a name="comparison-table"/>
 | Capability  | Models created using the [Deep Learning Toolbox](https://www.mathworks.com/products/deep-learning.html) | Models [Converted from other Frameworks](https://www.mathworks.com/help/deeplearning/deep-learning-import-and-export.html)| Co-execution |
 | ------------- | ------------- | ------------- | ------------- |
-| Integrates with pre and post processing with MATLAB | ![](https://via.placeholder.com/15/c5f015/000000?text=+) | ![](https://via.placeholder.com/15/c5f015/000000?text=+)  | ![](https://via.placeholder.com/15/c5f015/000000?text=+)    |
-| Requires installation of MATLAB products only | ![](https://via.placeholder.com/15/c5f015/000000?text=+)  | ![](https://via.placeholder.com/15/c5f015/000000?text=+) | ![](https://via.placeholder.com/15/f03c15/000000?text=+)  |
-| Supports debugging from MATLAB| ![](https://via.placeholder.com/15/c5f015/000000?text=+)   | ![](https://via.placeholder.com/15/c5f015/000000?text=+)  | ![](https://via.placeholder.com/15/f03c15/000000?text=+)  |
-| Offers best inference performance in MATLAB and Simulink| ![](https://via.placeholder.com/15/c5f015/000000?text=+)   | ![](https://via.placeholder.com/15/c5f015/000000?text=+)  | ![](https://via.placeholder.com/15/f03c15/000000?text=+)  |
-| Comes with many MATLAB application examples  | ![](https://via.placeholder.com/15/c5f015/000000?text=+)  | ![](https://via.placeholder.com/15/c5f015/000000?text=+) | ![](https://via.placeholder.com/15/f03c15/000000?text=+)  |
-| Requires no datatype conversion and data reformatting | ![](https://via.placeholder.com/15/c5f015/000000?text=+)   | ![](https://via.placeholder.com/15/ffa500/000000?text=+)  | ![](https://via.placeholder.com/15/f03c15/000000?text=+)  |
-| Provides largest coverage for embedded code generation with [MATLAB Coder](https://www.mathworks.com/products/matlab-coder.html), [GPU Coder](https://www.mathworks.com/products/gpu-coder.html) & [Deep Learning HDL Toolbox](https://www.mathworks.com/products/deep-learning-hdl.html) | ![](https://via.placeholder.com/15/c5f015/000000?text=+)   | ![](https://via.placeholder.com/15/ffa500/000000?text=+)  | ![](https://via.placeholder.com/15/f03c15/000000?text=+)  |
-| Requires no additional libraries for standalone deployment with [MATLAB Compiler](https://www.mathworks.com/products/compiler.html)  | ![](https://via.placeholder.com/15/c5f015/000000?text=+)   | ![](https://via.placeholder.com/15/ffa500/000000?text=+)  | ![](https://via.placeholder.com/15/f03c15/000000?text=+)  |
-| Accesses popular models in a single line of code  | ![](https://via.placeholder.com/15/c5f015/000000?text=+)   | ![](https://via.placeholder.com/15/f03c15/000000?text=+)  | ![](https://via.placeholder.com/15/f03c15/000000?text=+)  |
-| Access to models from TensorFlow and PyTorch | ![](https://via.placeholder.com/15/f03c15/000000?text=+) | ![](https://via.placeholder.com/15/ffa500/000000?text=+)  | ![](https://via.placeholder.com/15/c5f015/000000?text=+)    |
+| Integrates with pre and post processing with MATLAB | ![](Images/000000.png) | ![](Images/000000.png)  | ![](Images/000000.png)    |
+| Requires installation of MATLAB products only | ![](Images/000000.png)  | ![](Images/000000.png) | ![](Images/000003.png)  |
+| Supports debugging from MATLAB| ![](Images/000000.png)   | ![](Images/000000.png)  | ![](Images/000003.png)  |
+| Offers best inference performance in MATLAB and Simulink| ![](Images/000000.png)   | ![](Images/000000.png)  | ![](Images/000003.png)  |
+| Comes with many MATLAB application examples  | ![](Images/000000.png)  | ![](Images/000000.png) | ![](Images/000003.png)  |
+| Requires no datatype conversion and data reformatting | ![](Images/000000.png)   | ![](Images/000001.png) | ![](Images/000003.png)  |
+| Provides largest coverage for embedded code generation with [MATLAB Coder](https://www.mathworks.com/products/matlab-coder.html), [GPU Coder](https://www.mathworks.com/products/gpu-coder.html) & [Deep Learning HDL Toolbox](https://www.mathworks.com/products/deep-learning-hdl.html) | ![](Images/000000.png)   | ![](Images/000001.png) | ![](Images/000003.png)  |
+| Requires no additional libraries for standalone deployment with [MATLAB Compiler](https://www.mathworks.com/products/compiler.html)  | ![](Images/000000.png)   | ![](Images/000001.png) | ![](Images/000003.png)  |
+| Accesses popular models in a single line of code  | ![](Images/000000.png)   | ![](Images/000003.png)  | ![](Images/000003.png)  |
+| Access to models from TensorFlow and PyTorch | ![](Images/000003.png) | ![](Images/000001.png) | ![](Images/000000.png)    |
 
 
 Key:
 
-![](https://via.placeholder.com/15/c5f015/000000?text=+)  Most support and / or low effort
-![](https://via.placeholder.com/15/ffa500/000000?text=+)  Some support and / or some effort
-![](https://via.placeholder.com/15/f03c15/000000?text=+)  Little to no support  and / or high effort
+![](Images/000000.png) Most support and / or low effort
+![](Images/000001.png) Some support and / or some effort
+![](Images/000003.png) Little to no support  and / or high effort
 
 Copyright 2022, The MathWorks, Inc.
 
