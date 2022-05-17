@@ -108,7 +108,7 @@ title(labelStr,Interpreter="none");
 
 Key:
 
-![Low to no support](https://via.placeholder.com/15/c5f015/000000?text=+)  Most support and / or low effort
+![](https://via.placeholder.com/15/c5f015/000000?text=+)  Most support and / or low effort
 ![](https://via.placeholder.com/15/ffa500/000000?text=+)  Some support and / or some effort
 ![](https://via.placeholder.com/15/f03c15/000000?text=+)  Little to no support  and / or high effort
 
