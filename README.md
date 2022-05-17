@@ -110,7 +110,7 @@ Key:
 
 ![](Images/000000.png) Most support and / or low effort
 ![](Images/000001.png) Some support and / or some effort
-![](Images/000003.png) Little to no support  and / or high effort
+![](Images/000002.png) Little to no support  and / or high effort
 
 Copyright 2022, The MathWorks, Inc.
 
