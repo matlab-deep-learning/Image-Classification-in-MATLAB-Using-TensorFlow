@@ -7,7 +7,7 @@
 % This command will launch Python using 'OutOfProcess' to avoid any 
 % possible library conflicts
 
-% checkPythonSetup 
+checkPythonSetup 
 
 %% Read in image
 
