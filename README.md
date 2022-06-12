@@ -63,7 +63,7 @@ Steps to use the MATLAB Live Editor task for Python are:
 * Define MATLAB input variables to be called in Python
 * Define Python ouput variables to be called in MATLAB
 
-Example code available here: [MATLAB calling TensorFlow model for Image Classification using a Live Editor task.mlx](https://insidelabs-git.mathworks.com/dwilling/matlab-calling-tensorflow-model-for-image-classification-using-a-live-task/-/blob/main/MATLAB%20calling%20TensorFlow%20model%20for%20Image%20Classification%20using%20a%20Live%20Editor%20Task.mlx)
+Example code available here: [MATLAB calling TensorFlow model for Image Classification using a Live Editor task.mlx](https://github.com/matlab-deep-learning/Image-Classification-in-MATLAB-Using-TensorFlow/blob/main/MATLAB%20calling%20TensorFlow%20model%20for%20Image%20Classification%20using%20a%20Live%20Editor%20task.mlx)
 
 * **Read in image**
 
