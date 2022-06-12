@@ -2,7 +2,7 @@
 
 ### This example shows how to call a TensorFlow&trade; model from MATLAB&reg; using co-execution with Python&reg;.
 
-![](images/mainImage.png)
+![](Images/mainImage.png)
 
 There are different options for accessing deep learning models within MATLAB.  These include:
 
@@ -68,12 +68,12 @@ Example code available here: [MATLAB calling TensorFlow model for Image Classifi
 * **Read in image**
 
 ```matlab:Code(Display)
-imgOriginal = imread("./images/banana.png");
+imgOriginal = imread("./Images/banana.png");
 imshow(imgOriginal)
 ```
-![](images/banana.png)
+![](Images/banana.png)
 
-Each pretrained model in tensorflow.keras.applications takes input images of different sizes. Therefore the image being classified needs to be resized. 
+Each pretrained model in tensorflow.keras.applications takes input Images of different sizes. Therefore the image being classified needs to be resized. 
 
 ```matlab:Code(Display)
 imageHWSize = 480;
@@ -87,9 +87,9 @@ batch_size = int32(1); % Tensorflow require inputs to be converted to int32.
 
 * **Import TensorFlow model using the Live Task for Python**
 
-![](images/liveeditortask.png)
+![](Images/liveeditortask.png)
 
-![](images/bananaClassified.png)
+![](Images/bananaClassified.png)
 
 ## MATLAB calling a TensorFlow model using MATLAB commands <a name="matlabcallingtf"/>
 
@@ -106,10 +106,10 @@ For more information on setting up or troubleshooting the Python Environment in 
 
 * **Loading an image:**
 ```matlab:Code(Display)
-imgOriginal = imread("./images/banana.png");
+imgOriginal = imread("./Images/banana.png");
 imshow(imgOriginal)
 ```
-![](images/banana.png)
+![](Images/banana.png)
 
 * **Preparing inputs:**
 
@@ -152,7 +152,7 @@ labelStr = string(label);
 imshow(imgOriginal);
 title(labelStr,Interpreter="none");
 ```
-![](images/bananaClassified.png)
+![](Images/bananaClassified.png)
 
 
 
@@ -161,23 +161,23 @@ title(labelStr,Interpreter="none");
 ## Comparison of Models accessible in MATLAB <a name="comparison-table"/>
 | Capability  | Models created using the [Deep Learning Toolbox](https://www.mathworks.com/products/deep-learning.html) | Models [Converted from other Frameworks](https://www.mathworks.com/help/deeplearning/deep-learning-import-and-export.html)| Co-execution |
 | ------------- | ------------- | ------------- | ------------- |
-| Integrates with pre and post processing with MATLAB | ![](images/000000.png) | ![](images/000000.png)  | ![](images/000000.png)    |
-| Requires installation of MATLAB products only | ![](images/000000.png)  | ![](images/000000.png) | ![](images/000002.png)  |
-| Supports debugging from MATLAB| ![](images/000000.png)   | ![](images/000000.png)  | ![](images/000002.png)  |
-| Offers best inference performance in MATLAB and Simulink| ![](images/000000.png)   | ![](images/000000.png)  | ![](images/000002.png)  |
-| Comes with many MATLAB application examples  | ![](images/000000.png)  | ![](images/000000.png) | ![](images/000002.png)  |
-| Requires no datatype conversion and data reformatting | ![](images/000000.png)   | ![](images/000001.png) | ![](images/000002.png)  |
-| Provides largest coverage for embedded code generation with [MATLAB Coder](https://www.mathworks.com/products/matlab-coder.html), [GPU Coder](https://www.mathworks.com/products/gpu-coder.html) & [Deep Learning HDL Toolbox](https://www.mathworks.com/products/deep-learning-hdl.html) | ![](images/000000.png)   | ![](images/000001.png) | ![](images/000002.png)  |
-| Requires no additional libraries for standalone deployment with [MATLAB Compiler](https://www.mathworks.com/products/compiler.html)  | ![](images/000000.png)   | ![](images/000001.png) | ![](images/000002.png)  |
-| Accesses popular models in a single line of code  | ![](images/000000.png)   | ![](images/000002.png)  | ![](images/000002.png)  |
-| Access to models from TensorFlow and PyTorch | ![](images/000002.png) | ![](images/000001.png) | ![](images/000000.png)    |
+| Integrates with pre and post processing with MATLAB | ![](Images/000000.png) | ![](Images/000000.png)  | ![](Images/000000.png)    |
+| Requires installation of MATLAB products only | ![](Images/000000.png)  | ![](Images/000000.png) | ![](Images/000002.png)  |
+| Supports debugging from MATLAB| ![](Images/000000.png)   | ![](Images/000000.png)  | ![](Images/000002.png)  |
+| Offers best inference performance in MATLAB and Simulink| ![](Images/000000.png)   | ![](Images/000000.png)  | ![](Images/000002.png)  |
+| Comes with many MATLAB application examples  | ![](Images/000000.png)  | ![](Images/000000.png) | ![](Images/000002.png)  |
+| Requires no datatype conversion and data reformatting | ![](Images/000000.png)   | ![](Images/000001.png) | ![](Images/000002.png)  |
+| Provides largest coverage for embedded code generation with [MATLAB Coder](https://www.mathworks.com/products/matlab-coder.html), [GPU Coder](https://www.mathworks.com/products/gpu-coder.html) & [Deep Learning HDL Toolbox](https://www.mathworks.com/products/deep-learning-hdl.html) | ![](Images/000000.png)   | ![](Images/000001.png) | ![](Images/000002.png)  |
+| Requires no additional libraries for standalone deployment with [MATLAB Compiler](https://www.mathworks.com/products/compiler.html)  | ![](Images/000000.png)   | ![](Images/000001.png) | ![](Images/000002.png)  |
+| Accesses popular models in a single line of code  | ![](Images/000000.png)   | ![](Images/000002.png)  | ![](Images/000002.png)  |
+| Access to models from TensorFlow and PyTorch | ![](Images/000002.png) | ![](Images/000001.png) | ![](Images/000000.png)    |
 
 
 Key:
 
-![](images/000000.png) Most support and / or low effort
-![](images/000001.png) Some support and / or some effort
-![](images/000002.png) Little to no support  and / or high effort
+![](Images/000000.png) Most support and / or low effort
+![](Images/000001.png) Some support and / or some effort
+![](Images/000002.png) Little to no support  and / or high effort
 
 Copyright 2022, The MathWorks, Inc.
 Copyright 2022, The MathWorks, Inc.
