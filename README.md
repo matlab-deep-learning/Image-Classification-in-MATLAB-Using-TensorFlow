@@ -61,7 +61,7 @@ Using the MATLAB Live Editor task for Python enables users to write or copy & pa
 Steps to use the MATLAB Live Editor task for Python are:
 * Write or copy & paste Python code into the Live Editor task
 * Define MATLAB input variables to be called in Python
-* Define Python ouput variables to be called in MATLAB
+* Define Python output variables to be called in MATLAB
 
 Example code available here: [MATLAB calling TensorFlow model for Image Classification using a Live Editor task.mlx](https://github.com/matlab-deep-learning/Image-Classification-in-MATLAB-Using-TensorFlow/blob/main/MATLAB%20calling%20TensorFlow%20model%20for%20Image%20Classification%20using%20a%20Live%20Editor%20task.mlx)
 
