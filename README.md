@@ -7,7 +7,7 @@
 There are different options for accessing deep learning models within MATLAB.  These include:
 
 1. Using models created in MATLAB using the [Deep Learning Toolbox](https://www.mathworks.com/products/deep-learning.html)
-2. [Converting](https://www.mathworks.com/help/deeplearning/deep-learning-import-and-export.html) models from other frameworks into MATLAB
+2. [Converting](https://www.mathworks.com/help/deeplearning/networks-from-external-platforms.html) models from other frameworks into MATLAB
 3. Co-executing models from other frameworks with MATLAB
 
 This example provides an overview of how to perform 3. Co-execution. For a further example on co-execution see [Hyperparameter Tuning in MATLAB using Experiment Manager & TensorFlow](https://github.com/matlab-deep-learning/Hyperparameter-Tuning-in-MATLAB-using-Experiment-Manager-and-TensorFlow).
