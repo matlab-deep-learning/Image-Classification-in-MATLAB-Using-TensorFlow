@@ -159,7 +159,7 @@ title(labelStr,Interpreter="none");
 
 
 ## Comparison of Models accessible in MATLAB <a name="comparison-table"/>
-| Capability  | Models created using the [Deep Learning Toolbox](https://www.mathworks.com/products/deep-learning.html) | Models [Converted from other Frameworks](https://www.mathworks.com/help/deeplearning/deep-learning-import-and-export.html)| Co-execution |
+| Capability  | Models created using the [Deep Learning Toolbox](https://www.mathworks.com/products/deep-learning.html) | Models [Converted from other Frameworks](https://www.mathworks.com/help/deeplearning/networks-from-external-platforms.html)| Co-execution |
 | ------------- | ------------- | ------------- | ------------- |
 | Integrates with pre and post processing with MATLAB | ![](Images/000000.png) | ![](Images/000000.png)  | ![](Images/000000.png)    |
 | Requires installation of MATLAB products only | ![](Images/000000.png)  | ![](Images/000000.png) | ![](Images/000002.png)  |
@@ -179,4 +179,4 @@ Key:
 ![](Images/000001.png) Some support and / or some effort
 ![](Images/000002.png) Little to no support  and / or high effort
 
-Copyright 2023, The MathWorks, Inc.
+Copyright 2026, The MathWorks, Inc.
